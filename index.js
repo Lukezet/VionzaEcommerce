@@ -76,7 +76,104 @@ if(loged == false){
     sectionUser.innerHTML = button;
 }
 
-
+const productos = [
+    {
+        imagen:"src/img/EVI.png",
+        nombre:"EVI",
+        talle:"40",
+        color:"beige",
+        descripcion:"Botineta de cuero vegan y base color suela.",
+        precio: 13500   
+    },
+    {
+        imagen:"src/img/EVI.png",
+        nombre:"EVI",
+        talle:"39",
+        color:"beige",
+        descripcion:"Botineta de cuero vegan y base color suela.",
+        precio: 13500   
+    },
+    {
+        imagen:"src/img/EVI2.png",
+        nombre:"EVI",
+        talle:"37",
+        color:"negro",
+        descripcion:"Botineta de cuero vegan y base color negro.",
+        precio: 13500   
+    },
+    {
+        imagen:"src/img/MADISON.png",
+        nombre:"MADISON",
+        talle:"40",
+        color:"negro",
+        descripcion:"Botineta de cuero vegan y base color negro.",
+        precio: 13500   
+    },
+    {
+        imagen:"src/img/MADISON.png",
+        nombre:"MADISON",
+        talle:"39",
+        color:"negro",
+        descripcion:"Botineta de cuero vegan y base color negro.",
+        precio: 13500   
+    },
+    {
+        imagen:"src/img/CLOY.png",
+        nombre:"CLOY",
+        talle:"39",
+        color:"beige",
+        descripcion:"Botineta de cuero vegan y base color suela.",
+        precio: 14500   
+    },
+    {
+        imagen:"src/img/CLOY.png",
+        nombre:"CLOY",
+        talle:"38",
+        color:"beige",
+        descripcion:"Botineta de cuero vegan y base color suela.",
+        precio: 14500   
+    },
+    {
+        imagen:"src/img/CLOY.png",
+        nombre:"CLOY",
+        talle:"37",
+        color:"beige",
+        descripcion:"Botineta de cuero vegan y base color suela.",
+        precio: 14500   
+    },
+    {
+        imagen:"src/img/ANA.png",
+        nombre:"ANA",
+        talle:"37",
+        color:"negro",
+        descripcion:"Botineta de cuero vacuno y base color negro.",
+        precio: 16000   
+    },
+    {
+        imagen:"src/img/BIANCA.png",
+        nombre:"BIANCA",
+        talle:"38",
+        color:"suela",
+        descripcion:"Botineta de cuero vegan y base color suela.",
+        precio: 14000   
+    },
+    {
+        imagen:"src/img/BIANCA2.png",
+        nombre:"BIANCA",
+        talle:"38",
+        color:"negro",
+        descripcion:"Botineta de cuero vegan y base color negro.",
+        precio: 14000   
+    },
+    {
+        imagen:"src/img/PRAGA.png",
+        nombre:"PRAGA",
+        talle:"38",
+        color:"negro",
+        descripcion:"Botineta de cuero vegan y base color negro.",
+        precio: 13000   
+    },
+    ]
 
 
 main();
